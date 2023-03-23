@@ -12,3 +12,6 @@ cloudfoundry-client>=1.16.1
 whitenoise
 gunicorn
 protobuf>=3.15.0
+
+# Pinning security fixes for dependabot
+certifi==2022.12.7

@@ -54,11 +54,13 @@ multidict==6.0.2
     #   yarl
 oauth2-client==1.2.1
     # via cloudfoundry-client
-oauthlib==3.2.0
-    # via requests-oauthlib
+oauthlib==3.2.2
+    # via
+    #   -r requirements.in
+    #   requests-oauthlib
 polling2==0.5.0
     # via cloudfoundry-client
-protobuf==3.19.4
+protobuf==4.22.1
     # via
     #   -r requirements.in
     #   cloudfoundry-client
